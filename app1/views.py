@@ -10,3 +10,4 @@ def students(request):
         students_list  = [student.name + '\n' for student in all_students]
 
         return HttpResponse(students_list)
+
