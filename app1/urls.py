@@ -22,4 +22,5 @@ from .views import students
 urlpatterns = [
         path('students/', students, name='students'),  # Optionally add a name for the URL
         path('teachers/', teachers, name='teachers'),  # Add path for the teachers view
+        path('courses/', courses, name='courses'),
 ]
